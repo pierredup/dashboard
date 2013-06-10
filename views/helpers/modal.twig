@@ -1,0 +1,18 @@
+<div class="modal hide"{% if id is defined %} id="{{ id }}"{% endif %}>
+	<div class="modal-header">
+		<a href="#" class="close" data-dismiss="modal">x</a>
+		{% if title is defined %}
+			<h3>{{ title }}</h3>
+		{% endif %}
+	</div>
+	<div class="modal-body">
+		{% if body is defined %}
+			{{ body }}
+		{% endif %}
+	</div>
+	<div class="modal-footer">
+		{% for button in buttons %}
+			<a href="#" class="btn{% if button.class is defined %} {{ button.class}}{% endif %}"{% if button.id is defined %} id="{{ button.id }}"{% endif %}{% if button.close is defined and button.close == true %} data-dismiss="modal"{% endif %}>{{ button.title }}</a>
+		{% endfor %}
+	</div>
+</div>

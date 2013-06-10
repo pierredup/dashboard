@@ -1,0 +1,10 @@
+{% extends "layouts/base.twig" %}
+
+{% block body %}
+	<section class="span8">
+		{% block("content") %}
+	</section>
+	<aside class="span4">
+		{% block("sidebar_right") %}
+	</aside>
+{% endblock body %}

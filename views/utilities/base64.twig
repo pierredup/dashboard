@@ -1,0 +1,23 @@
+{% extends "layouts/single_column.twig" %}
+
+{% block content %}
+	<div class="well well-small">
+		<legend>Base64 Encode/Decode</legend>
+		<div align="center">
+			<form action="/base64" method="post">
+				<textarea rows="15" style="width: 95%" name="data"></textarea>
+			
+				<button type="submit" name="type" value="encode" class="btn">Encode</button>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<button type="submit" name="type" value="decode" class="btn">Decode</button>
+			</form>
+		</div>
+	</div>
+	
+	{% if content is defined %}
+		<div class="well well-small">
+			<legend>Result</legend>
+			{{ content }}
+		</div>
+	{% endif %}
+{% endblock %}

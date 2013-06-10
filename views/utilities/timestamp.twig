@@ -1,0 +1,42 @@
+{% extends "layouts/single_column.twig" %}
+
+{% block content %}
+	<div class="well well-small">
+		<legend>Unix Timestamp Convert</legend>
+		<form action="/timestamp" method="post">
+		
+			<div class="row-fluid">
+				<div class="control-group span6" align="center">
+					<label>Convert timestamp to date</label>
+					<input type="text" name="timestamp">
+					<button type="submit" name="type" value="timestamp" class="btn" style="margin-bottom: 10px;">Submit</button>
+					{% if date is defined and date is not empty %}
+						<br class="clearfix" />
+						<div class="alert">
+							{{ date }}
+						</div>
+					{% endif %}
+				</div>
+				
+				<div class="control-group span6" align="center">
+					<label>Convert date to timestamp</label>
+					<input type="text" name="date">
+					<button type="submit" name="type" value="date" class="btn" style="margin-bottom: 10px;">Submit</button>
+					{% if timestamp is defined and timestamp is not empty %}
+						<br class="clearfix" />
+						<div class="alert">
+							{{ timestamp }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	{% if content is defined %}
+		<div class="well well-small">
+			<legend>Result</legend>
+			{{ content }}
+		</div>
+	{% endif %}
+{% endblock %}

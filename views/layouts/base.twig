@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Localhost</title>
+		
+		<!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">-->
+		<link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<section class="container-fluid">
+			<div class="well" align="center">
+				<form action="https://google.com/search" method="get">
+					<h3>
+						<img src="/web/img/Googlelogo.png" width="150" />
+						<input id="google-search" class="input-xxlarge" style="margin: 5px;" type="text" name="q" maxlength="255" />
+						<button class="btn" type="submit"><i class="icon-search"></i> Search</button>
+					</h3>
+				</form>
+			</div>
+
+			<section class="row-fluid">
+				{{ block("body") }}
+			</section>
+		</section>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+		<script src="/web/js/local.js"></script>
+	</body>
+</html>

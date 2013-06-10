@@ -1,0 +1,13 @@
+{% extends "layouts/base.twig" %}
+
+{% block body %}
+	<asside class="span4">
+		{{ block("sidebar_left") }}
+	</asside>
+	<section class="span4">
+		{{ block("content") }}
+	</section>
+	<asside class="span4">
+		{{ block("sidebar_right") }}
+	</asside>
+{% endblock body %}
