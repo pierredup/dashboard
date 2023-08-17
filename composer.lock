@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "hash": "5981b305b2b54b4228053a4dbec87505",
+    "content-hash": "cde52f3e62b58900c0440353debac73c",
     "packages": [
         {
             "name": "doctrine/common",
@@ -72,7 +73,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2012-09-19 22:55:18"
+            "time": "2012-09-19T22:55:18+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -135,7 +136,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-03-24 19:16:29"
+            "time": "2013-03-24T19:16:29+00:00"
         },
         {
             "name": "filp/whoops",
@@ -186,7 +187,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2013-06-07 20:38:22"
+            "time": "2013-06-07T20:38:22+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -248,7 +249,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-04-23 10:09:48"
+            "time": "2013-04-23T10:09:48+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -294,7 +295,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2013-03-08 08:21:40"
+            "time": "2013-03-08T08:21:40+00:00"
         },
         {
             "name": "psr/log",
@@ -332,7 +333,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "silex/silex",
@@ -414,7 +415,7 @@
             "keywords": [
                 "microframework"
             ],
-            "time": "2013-05-03 16:49:57"
+            "time": "2013-05-03T16:49:57+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -463,7 +464,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-04-30 17:35:30"
+            "time": "2013-04-30T17:35:30+00:00"
         },
         {
             "name": "symfony/browser-kit",
@@ -518,7 +519,7 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-15 10:14:31"
+            "time": "2013-03-15T10:14:31+00:00"
         },
         {
             "name": "symfony/config",
@@ -565,7 +566,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-01 10:42:10"
+            "time": "2013-03-01T10:42:10+00:00"
         },
         {
             "name": "symfony/console",
@@ -612,7 +613,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-19 20:48:08"
+            "time": "2013-03-19T20:48:08+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -659,7 +660,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "http://symfony.com",
-            "time": "2013-01-17 15:25:59"
+            "time": "2013-01-17T15:25:59+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -712,7 +713,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-01 08:05:23"
+            "time": "2013-04-01T08:05:23+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -766,7 +767,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-02-11 11:26:43"
+            "time": "2013-02-11T11:26:43+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -813,7 +814,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2013-01-17 15:25:59"
+            "time": "2013-01-17T15:25:59+00:00"
         },
         {
             "name": "symfony/finder",
@@ -860,7 +861,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-01 07:51:50"
+            "time": "2013-04-01T07:51:50+00:00"
         },
         {
             "name": "symfony/form",
@@ -919,7 +920,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-01 08:06:05"
+            "time": "2013-04-01T08:06:05+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -969,7 +970,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-06 10:15:43"
+            "time": "2013-04-06T10:15:43+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1038,7 +1039,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-06 10:16:33"
+            "time": "2013-04-06T10:16:33+00:00"
         },
         {
             "name": "symfony/locale",
@@ -1091,7 +1092,7 @@
             ],
             "description": "Symfony Locale Component",
             "homepage": "http://symfony.com",
-            "time": "2013-02-01 09:33:53"
+            "time": "2013-02-01T09:33:53+00:00"
         },
         {
             "name": "symfony/monolog-bridge",
@@ -1140,7 +1141,7 @@
             ],
             "description": "Symfony Monolog Bridge",
             "homepage": "http://symfony.com",
-            "time": "2013-02-08 16:10:57"
+            "time": "2013-02-08T16:10:57+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -1192,7 +1193,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2013-01-17 15:25:59"
+            "time": "2013-01-17T15:25:59+00:00"
         },
         {
             "name": "symfony/process",
@@ -1239,7 +1240,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-23 07:49:54"
+            "time": "2013-03-23T07:49:54+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -1297,7 +1298,7 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2013-03-28 15:37:15"
+            "time": "2013-03-28T15:37:15+00:00"
         },
         {
             "name": "symfony/routing",
@@ -1355,7 +1356,7 @@
             ],
             "description": "Symfony Routing Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-23 12:03:22"
+            "time": "2013-03-23T12:03:22+00:00"
         },
         {
             "name": "symfony/security",
@@ -1421,7 +1422,7 @@
             ],
             "description": "Symfony Security Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-01 08:06:05"
+            "time": "2013-04-01T08:06:05+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -1468,38 +1469,42 @@
             ],
             "description": "Symfony Serializer Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-06 21:43:23"
+            "time": "2013-03-06T21:43:23+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v2.2.1",
+            "version": "v2.6.13",
             "target-dir": "Symfony/Component/Translation",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Translation.git",
-                "reference": "v2.2.1"
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "d84291215b5892834dd8ca8ee52f9cbdb8274904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/v2.2.1",
-                "reference": "v2.2.1",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/d84291215b5892834dd8ca8ee52f9cbdb8274904",
+                "reference": "d84291215b5892834dd8ca8ee52f9cbdb8274904",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/config": ">=2.0,<2.3-dev",
-                "symfony/yaml": ">=2.2,<3.0"
+                "psr/log": "~1.0",
+                "symfony/config": "~2.3,>=2.3.12",
+                "symfony/intl": "~2.3",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/yaml": "~2.2"
             },
             "suggest": {
-                "symfony/config": "2.2.*",
-                "symfony/yaml": "2.2.*"
+                "psr/log": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -1518,12 +1523,15 @@
                 },
                 {
                     "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony Translation Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-04-01 08:06:05"
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/translation/tree/v2.6.11"
+            },
+            "time": "2015-07-08T05:59:48+00:00"
         },
         {
             "name": "symfony/twig-bridge",
@@ -1589,32 +1597,32 @@
             ],
             "description": "Symfony Twig Bridge",
             "homepage": "http://symfony.com",
-            "time": "2013-03-15 10:14:31"
+            "time": "2013-03-15T10:14:31+00:00"
         },
         {
             "name": "symfony/validator",
-            "version": "v2.2.1",
+            "version": "v2.2.5",
             "target-dir": "Symfony/Component/Validator",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Validator.git",
-                "reference": "v2.2.1"
+                "url": "https://github.com/symfony/validator.git",
+                "reference": "e4fae0943bd412774a79e799e16b3580df291529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Validator/zipball/v2.2.1",
-                "reference": "v2.2.1",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/e4fae0943bd412774a79e799e16b3580df291529",
+                "reference": "e4fae0943bd412774a79e799e16b3580df291529",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/translation": ">=2.0,<3.0"
+                "symfony/translation": "~2.0"
             },
             "require-dev": {
                 "symfony/config": ">=2.2,<2.3-dev",
-                "symfony/http-foundation": ">=2.1,<3.0",
-                "symfony/locale": ">=2.0,<3.0",
-                "symfony/yaml": ">=2.0,<3.0"
+                "symfony/http-foundation": "~2.1",
+                "symfony/locale": "~2.0",
+                "symfony/yaml": "~2.0"
             },
             "suggest": {
                 "doctrine/common": "~2.2",
@@ -1640,17 +1648,20 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Validator Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-01 08:06:05"
+            "support": {
+                "source": "https://github.com/symfony/validator/tree/v2.2.5"
+            },
+            "time": "2013-08-06T05:59:38+00:00"
         },
         {
             "name": "twig/twig",
@@ -1699,23 +1710,19 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-04-08 12:40:11"
+            "time": "2013-04-08T12:40:11+00:00"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "doctrine/dbal": 20,
         "filp/whoops": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
