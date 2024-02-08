@@ -1445,17 +1445,17 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.2.1",
+            "version": "v2.2.11",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "v2.2.1"
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "649001b7543431a5452a57b11e568c4bafb7f6ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/v2.2.1",
-                "reference": "v2.2.1",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/649001b7543431a5452a57b11e568c4bafb7f6ba",
+                "reference": "649001b7543431a5452a57b11e568c4bafb7f6ba",
                 "shasum": ""
             },
             "require": {
@@ -1481,17 +1481,20 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-06T10:15:43+00:00"
+            "support": {
+                "source": "https://github.com/symfony/http-foundation/tree/v2.2.11"
+            },
+            "time": "2013-11-27T09:30:56+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -2235,5 +2238,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
