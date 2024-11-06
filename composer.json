@@ -10,7 +10,7 @@
         "symfony/finder": "~2.1",
         "symfony/form": "~2.1",
         "symfony/locale": "~2.1",
-        "symfony/process": "~2.1",
+        "symfony/process": "~5.4",
         "symfony/security": "~2.1",
         "symfony/serializer": "~2.1",
         "symfony/translation": "~2.1",
